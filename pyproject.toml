@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "working-with-apis"
+version = "0.1.0"
+description = ""
+authors = ["andyhuangdev <ah052691@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
